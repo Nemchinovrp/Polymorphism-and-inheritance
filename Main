@@ -1,0 +1,14 @@
+public class Main
+{
+    public static void main(String[] args){
+
+         Staff staff = new Staff("Валера", 30, 1, 100000);
+         System.out.println(staff.toString());
+         Person p = new Person("Николай", 20);
+         System.out.println(p.toString());
+         Object o = new Object();
+         System.out.println(o.toString());
+         System.out.println(Person.Total);
+    }
+
+}
