@@ -1,0 +1,15 @@
+public class Staff extends Person
+{
+    public long Number;
+    public int Salary;
+
+    public Staff(String name, int age, long num, int salary){
+       super(name, age);
+       this.Number = num;
+       this.Salary = salary;
+       System.out.println("Конструктор Staff");
+    }
+    public String toString(){
+        return String.format("%d - %d %s ", this.Number, this.Salary, super.toString());
+    }
+}
